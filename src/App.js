@@ -33,11 +33,7 @@ export default function App() {
               Confirm Email
             </Form.Label>
             <Col sm={10}>
-              <Form.Control
-                onpaste="return false"
-                type="email"
-                placeholder="Email Confirmation"
-              />
+              <Form.Control type="email" placeholder="Email Confirmation" />
             </Col>
           </Form.Group>
           <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
@@ -85,13 +81,13 @@ export default function App() {
                 />
                 <Form.Check
                   type="radio"
-                  label="Novice developper"
+                  label="Novice web developper"
                   name="formHorizontalRadios"
                   id="formHorizontalRadios2"
                 />
                 <Form.Check
                   type="radio"
-                  label="Expert developper"
+                  label="Expert web developper"
                   name="formHorizontalRadios"
                   id="formHorizontalRadios3"
                 />
