@@ -24,6 +24,7 @@
 .mb-3 {
   justify-content: center;
 }
+
 .offset-sm-2 {
   display: flex;
   justify-content: center;
@@ -65,4 +66,22 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 30px;
   color: darkblue;
+}
+
+.but button img {
+  height: 40px;
+  width: 40px;
+}
+.but button {
+  background-color: white;
+  border: solid black 1px;
+  margin: 5px;
+  border: none;
+}
+.but button:hover {
+  opacity: 0.95;
+  background-color: white;
+}
+.ori {
+  margin: 10px;
 }

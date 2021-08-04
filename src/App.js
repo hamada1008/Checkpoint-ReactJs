@@ -111,6 +111,46 @@ export default function App() {
           </Form.Group>
         </Form>
       </div>
+
+      <div className="alt">
+        <div className="ori">
+          <i>Or sign up with</i>
+        </div>
+        <div className="but">
+          <Button>
+            <a href="javascript:void(0)">
+              <img
+                src="https://icon-library.com/images/google-login-icon/google-login-icon-24.jpg"
+                alt="google"
+              />
+            </a>
+          </Button>
+          <Button>
+            <a href="javascript:void(0)">
+              <img
+                src="https://cdn.pixabay.com/photo/2018/05/08/18/25/facebook-3383596_960_720.png"
+                alt="google"
+              />
+            </a>
+          </Button>
+          <Button>
+            <a href="javascript:void(0)">
+              <img
+                src="https://image.flaticon.com/icons/png/512/174/174857.png"
+                alt="google"
+              />
+            </a>
+          </Button>
+          <Button>
+            <a href="javascript:void(0)">
+              <img
+                src="https://image.flaticon.com/icons/png/512/124/124021.png"
+                alt="google"
+              />
+            </a>
+          </Button>
+        </div>
+      </div>
     </div>
   );
 }
